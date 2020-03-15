@@ -1,0 +1,35 @@
+@import '~antd/dist/antd.css';
+.root {
+    /* display: block; */
+    position: relative;
+    min-height: 100vh;
+}
+
+.menu {
+    height: 100vh;
+    min-height: 100vh;
+    display: -webkit-flex;
+}
+
+.logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px 28px 16px 0;
+    float: left;
+}
+
+.site-layout-background {
+    height: 100vh;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.ant-layout-sider-children {
+    height: 100vh;
+    min-height: 100vh;
+}
+
+.ant-layout-sider-trigger {
+    /* position: absolute !important; */
+}

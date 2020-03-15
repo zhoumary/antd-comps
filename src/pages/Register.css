@@ -1,0 +1,89 @@
+@import '~antd/dist/antd.css';
+html,
+body {
+    background-color: #f0f2f5;
+}
+
+.root {
+    display: block;
+}
+
+.register {
+    height: 100vh;
+}
+
+.language {
+    background-color: #f0f2f5;
+}
+
+.langSetting {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.multiLang {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.content {
+    width: 100%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginTitle {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 88px;
+    margin-right: 16px;
+    vertical-align: top;
+}
+
+.systemTitle {
+    top: 2px;
+    color: rgba(0, 0, 0, .85);
+    font-weight: 600;
+    font-size: 30px;
+    font-family: Avenir, Helvetica Neue, Arial, Helvetica, sans-serif;
+}
+
+.registerContent {
+    width: 368px;
+}
+
+.register-form {
+    width: 100%;
+}
+
+.register-form-button {
+    width: 40%;
+}
+
+.registerOrNot .ant-form-item-control-input-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footer span {
+    color: gray;
+}
