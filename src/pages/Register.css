@@ -30,6 +30,7 @@ body {
 
 .content {
     width: 100%;
+    min-height: 490px;
     margin: 25px auto;
     display: flex;
     flex-direction: column;

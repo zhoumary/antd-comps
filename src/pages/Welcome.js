@@ -16,9 +16,7 @@ const Welcome = () => {
                     <img src={SAPLogo} className="welcomeLogo" />
                     <span className="systemTitle">Welcome S+ POC</span>
                 </div>
-
             </MenuLayout>
-
         </Router>
     )
 }

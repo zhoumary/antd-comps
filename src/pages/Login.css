@@ -35,6 +35,7 @@ body {
 
 .content {
     width: 100%;
+    min-height: 350px;
     margin: 25px auto;
     flex: 1;
     display: flex;
@@ -83,16 +84,4 @@ body {
 .login-form-button {
     width: 100%;
     margin-bottom: 10px;
-}
-
-.footer {
-    background-color: #f0f2f5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
-.footer span {
-    color: gray;
 }

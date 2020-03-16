@@ -177,10 +177,10 @@ const Register = () => {
                             </Form.Item>
                         </Form>
                     </div>
-                    <div className="footer">
-                        <span>Copyright  2020 思愛普（中國）有限公司</span>
-                    </div>
                 </Content>
+                <Footer style={{ textAlign: 'center' }}>
+                    <span>Copyright  2020 思愛普（中國）有限公司</span>
+                </Footer>
             </Layout>
         </div>
     );
